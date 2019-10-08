@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16a3fd3e-0bab-4f92-b3e7-ee5d7959d84c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1RsdzEEflKkxYBmPNSDqVtw9ipQ" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../oldd" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Part1FunctionalTests">
+    <configuration name="Part1FunctionalTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kvstore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.gmu.cs475.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.gmu.cs475" />
+      <option name="MAIN_CLASS_NAME" value="edu.gmu.cs475.Part1FunctionalTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Part2ConcurrentTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kvstore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.gmu.cs475.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.gmu.cs475" />
+      <option name="MAIN_CLASS_NAME" value="edu.gmu.cs475.Part2ConcurrentTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Part2ConcurrentTests.testListAllKeysWhileSetKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kvstore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.gmu.cs475.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.gmu.cs475" />
+      <option name="MAIN_CLASS_NAME" value="edu.gmu.cs475.Part2ConcurrentTests" />
+      <option name="METHOD_NAME" value="testListAllKeysWhileSetKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Part2ConcurrentTests.testListDirSimultaneously" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kvstore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.gmu.cs475.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.gmu.cs475" />
+      <option name="MAIN_CLASS_NAME" value="edu.gmu.cs475.Part2ConcurrentTests" />
+      <option name="METHOD_NAME" value="testListDirSimultaneously" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Part2ConcurrentTests.testRemoveParentDirectoryWhileSetKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kvstore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.gmu.cs475.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.gmu.cs475" />
+      <option name="MAIN_CLASS_NAME" value="edu.gmu.cs475.Part2ConcurrentTests" />
+      <option name="METHOD_NAME" value="testRemoveParentDirectoryWhileSetKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Part1FunctionalTests" />
+        <item itemvalue="JUnit.Part2ConcurrentTests" />
+        <item itemvalue="JUnit.Part2ConcurrentTests.testRemoveParentDirectoryWhileSetKey" />
+        <item itemvalue="JUnit.Part2ConcurrentTests.testListAllKeysWhileSetKey" />
+        <item itemvalue="JUnit.Part2ConcurrentTests.testListDirSimultaneously" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16a3fd3e-0bab-4f92-b3e7-ee5d7959d84c" name="Default Changelist" comment="" />
+      <created>1570459997968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570459997968</updated>
+      <workItem from="1570460001464" duration="25074000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.gmu.cs475.Part2ConcurrentTests" time="0.14" tests="14" errors="4" skipped="0" failures="7">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.6.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.6.1\bin\../conf"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -f c:\Users\Perri\OneDrive\Documents\School\CS475\HW2-handout\pom.xml"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.6.1\bin\.."/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Perri"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-12.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="12.0.2+10"/>
+    <property name="user.name" value="Perri"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Perri\AppData\Local\Temp\"/>
+    <property name="java.version" value="12.0.2"/>
+    <property name="user.dir" value="C:\Users\Perri\OneDrive\Documents\School\CS475\HW2-handout"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Perri\OneDrive\Documents\School\CS475\HW2-handout"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-12.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\apache-maven-3.6.1\bin;C:\Users\Perri\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.2+10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.6.1\bin\..\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.6.1\bin\..\lib\jansi-native"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="testListDirWhileRemoveFile" classname="edu.gmu.cs475.Part2ConcurrentTests" time="0.002">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at edu.gmu.cs475.Part2ConcurrentTests.testListDirWhileRemoveFile(Part2ConcurrentTests.java:405)
+</error>
+    <system-out><![CDATA[SET children[]
+SET children[/something]
+SET children[]
+]]></system-out>
+  </testcase>
+  <testcase name="testListParentDirWhileRemoveFile" classname="edu.gmu.cs475.Part2ConcurrentTests" time="0.013">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at edu.gmu.cs475.Part2ConcurrentTests.testListParentDirWhileRemoveFile(Part2ConcurrentTests.java:462)
+</error>
+    <system-out><![CDATA[SET children[]
+SET children[/something]
+SET children[]
+]]></system-out>
+  </testcase>
+  <testcase name="testListParentDirWhileCreateFile" classname="edu.gmu.cs475.Part2ConcurrentTests" time="0.002">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at edu.gmu.cs475.Part2ConcurrentTests.testListParentDirWhileCreateFile(Part2ConcurrentTests.java:517)
+</error>
+    <system-out><![CDATA[SET children[]
+SET children[/something]
+SET children[]
+]]></system-out>
+  </testcase>
+  <testcase name="testListAllKeysWhileSetKey" classname="edu.gmu.cs475.Part2ConcurrentTests" time="0.013">
+    <failure message="Expected to not be able list keys while adding keys, but did" type="java.lang.AssertionError">java.lang.AssertionError: Expected to not be able list keys while adding keys, but did
+	at edu.gmu.cs475.Part2ConcurrentTests.testListAllKeysWhileSetKey(Part2ConcurrentTests.java:561)
+</failure>
+    <system-out><![CDATA[SET children[]
+SET children[/something]
+SET children[]
+SET children[/abcd]
+SET children[/abcd]
+]]></system-out>
+  </testcase>
+  <testcase name="testGetAndSetDifferentKeysSimultaneously" classname="edu.gmu.cs475.Part2ConcurrentTests" time="0.005"/>
+  <testcase name="testSetAndRemoveDifferentKeySimultaneously" classname="edu.gmu.cs475.Part2ConcurrentTests" time="0.013"/>
+  <testcase name="testRemoveParentDirectoryWhileSetKey" classname="edu.gmu.cs475.Part2ConcurrentTests" time="0.034">
+    <failure message="Expected to not be able to delete a file&apos;s parent directory while creating the file" type="java.lang.AssertionError">java.lang.AssertionError: Expected to not be able to delete a file's parent directory while creating the file
+	at edu.gmu.cs475.Part2ConcurrentTests.testRemoveParentDirectoryWhileSetKey(Part2ConcurrentTests.java:599)
+</failure>
+    <system-out><![CDATA[SET children[]
+SET children[/something]
+SET children[]
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at edu.gmu.cs475.KeyValueStore.listDirectory(KeyValueStore.java:136)
+	at edu.gmu.cs475.KeyValueStore.removeDirectory(KeyValueStore.java:152)
+	at edu.gmu.cs475.Part2ConcurrentTests$12.lambda$_set$0(Part2ConcurrentTests.java:576)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]></system-err>
+  </testcase>
+  <testcase name="testRemoveParentDirectoryWhileSetKey" classname="edu.gmu.cs475.Part2ConcurrentTests" time="0.034">
+    <failure message="Unexpected exception" type="java.lang.AssertionError">java.lang.AssertionError: Unexpected exception
+	at edu.gmu.cs475.Part2ConcurrentTests.checkUncaughtException(Part2ConcurrentTests.java:52)
+</failure>
+  </testcase>
+  <testcase name="testGetAndSetSameKeySimultaneously" classname="edu.gmu.cs475.Part2ConcurrentTests" time="0.004">
+    <failure message="Expected to not be able to concurrently get and set on the same key, but did" type="java.lang.AssertionError">java.lang.AssertionError: Expected to not be able to concurrently get and set on the same key, but did
+	at edu.gmu.cs475.Part2ConcurrentTests.testGetAndSetSameKeySimultaneously(Part2ConcurrentTests.java:127)
+</failure>
+    <system-out><![CDATA[SET children[]
+SET children[/something]
+SET children[]
+SET children[/abcd]
+]]></system-out>
+  </testcase>
+  <testcase name="testSetAndRemoveSameKeySimultaneously" classname="edu.gmu.cs475.Part2ConcurrentTests" time="0.012">
+    <failure message="Expected to not be able to set and remove the same key simultaneoulsy, but did" type="java.lang.AssertionError">java.lang.AssertionError: Expected to not be able to set and remove the same key simultaneoulsy, but did
+	at edu.gmu.cs475.Part2ConcurrentTests.testSetAndRemoveSameKeySimultaneously(Part2ConcurrentTests.java:205)
+</failure>
+    <system-out><![CDATA[SET children[]
+SET children[/something]
+SET children[]
+]]></system-out>
+  </testcase>
+  <testcase name="testGetSameKeySimultaneously" classname="edu.gmu.cs475.Part2ConcurrentTests" time="0.003"/>
+  <testcase name="testListDirSimultaneously" classname="edu.gmu.cs475.Part2ConcurrentTests" time="0.033">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at edu.gmu.cs475.Part2ConcurrentTests.testListDirSimultaneously(Part2ConcurrentTests.java:352)
+</error>
+    <system-out><![CDATA[SET children[]
+SET children[/something]
+SET children[]
+SET children[/abcd]
+SET children[/abcd]
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at edu.gmu.cs475.KeyValueStore.listDirectory(KeyValueStore.java:136)
+	at edu.gmu.cs475.Part2ConcurrentTests$7.lambda$_get$0(Part2ConcurrentTests.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+]]></system-err>
+  </testcase>
+  <testcase name="testListDirSimultaneously" classname="edu.gmu.cs475.Part2ConcurrentTests" time="0.033">
+    <failure message="Unexpected exception" type="java.lang.AssertionError">java.lang.AssertionError: Unexpected exception
+	at edu.gmu.cs475.Part2ConcurrentTests.checkUncaughtException(Part2ConcurrentTests.java:52)
+</failure>
+  </testcase>
+  <testcase name="testSimultaneousInitializationOfDirectories" classname="edu.gmu.cs475.Part2ConcurrentTests" time="0.002">
+    <failure message="While in the middle of initialization anotherFolder, we found another thread also created it (it was created twice)! You must hold locks as you initialize paths" type="java.lang.AssertionError">java.lang.AssertionError: While in the middle of initialization anotherFolder, we found another thread also created it (it was created twice)! You must hold locks as you initialize paths
+	at edu.gmu.cs475.Part2ConcurrentTests.testSimultaneousInitializationOfDirectories(Part2ConcurrentTests.java:309)
+</failure>
+    <system-out><![CDATA[SET children[]
+SET children[/something]
+SET children[]
+]]></system-out>
+  </testcase>
+</testsuite>

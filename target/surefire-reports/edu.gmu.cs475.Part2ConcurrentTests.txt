@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: edu.gmu.cs475.Part2ConcurrentTests
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 7, Errors: 4, Skipped: 0, Time elapsed: 0.14 s <<< FAILURE! - in edu.gmu.cs475.Part2ConcurrentTests
+testListDirWhileRemoveFile(edu.gmu.cs475.Part2ConcurrentTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+	at edu.gmu.cs475.Part2ConcurrentTests.testListDirWhileRemoveFile(Part2ConcurrentTests.java:405)
+
+testListParentDirWhileRemoveFile(edu.gmu.cs475.Part2ConcurrentTests)  Time elapsed: 0.013 s  <<< ERROR!
+java.lang.NullPointerException
+	at edu.gmu.cs475.Part2ConcurrentTests.testListParentDirWhileRemoveFile(Part2ConcurrentTests.java:462)
+
+testListParentDirWhileCreateFile(edu.gmu.cs475.Part2ConcurrentTests)  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+	at edu.gmu.cs475.Part2ConcurrentTests.testListParentDirWhileCreateFile(Part2ConcurrentTests.java:517)
+
+testListAllKeysWhileSetKey(edu.gmu.cs475.Part2ConcurrentTests)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: Expected to not be able list keys while adding keys, but did
+	at edu.gmu.cs475.Part2ConcurrentTests.testListAllKeysWhileSetKey(Part2ConcurrentTests.java:561)
+
+testRemoveParentDirectoryWhileSetKey(edu.gmu.cs475.Part2ConcurrentTests)  Time elapsed: 0.034 s  <<< FAILURE!
+java.lang.AssertionError: Expected to not be able to delete a file's parent directory while creating the file
+	at edu.gmu.cs475.Part2ConcurrentTests.testRemoveParentDirectoryWhileSetKey(Part2ConcurrentTests.java:599)
+
+testRemoveParentDirectoryWhileSetKey(edu.gmu.cs475.Part2ConcurrentTests)  Time elapsed: 0.034 s  <<< FAILURE!
+java.lang.AssertionError: Unexpected exception
+	at edu.gmu.cs475.Part2ConcurrentTests.checkUncaughtException(Part2ConcurrentTests.java:52)
+
+testGetAndSetSameKeySimultaneously(edu.gmu.cs475.Part2ConcurrentTests)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: Expected to not be able to concurrently get and set on the same key, but did
+	at edu.gmu.cs475.Part2ConcurrentTests.testGetAndSetSameKeySimultaneously(Part2ConcurrentTests.java:127)
+
+testSetAndRemoveSameKeySimultaneously(edu.gmu.cs475.Part2ConcurrentTests)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: Expected to not be able to set and remove the same key simultaneoulsy, but did
+	at edu.gmu.cs475.Part2ConcurrentTests.testSetAndRemoveSameKeySimultaneously(Part2ConcurrentTests.java:205)
+
+testListDirSimultaneously(edu.gmu.cs475.Part2ConcurrentTests)  Time elapsed: 0.033 s  <<< ERROR!
+java.lang.NullPointerException
+	at edu.gmu.cs475.Part2ConcurrentTests.testListDirSimultaneously(Part2ConcurrentTests.java:352)
+
+testListDirSimultaneously(edu.gmu.cs475.Part2ConcurrentTests)  Time elapsed: 0.033 s  <<< FAILURE!
+java.lang.AssertionError: Unexpected exception
+	at edu.gmu.cs475.Part2ConcurrentTests.checkUncaughtException(Part2ConcurrentTests.java:52)
+
+testSimultaneousInitializationOfDirectories(edu.gmu.cs475.Part2ConcurrentTests)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: While in the middle of initialization anotherFolder, we found another thread also created it (it was created twice)! You must hold locks as you initialize paths
+	at edu.gmu.cs475.Part2ConcurrentTests.testSimultaneousInitializationOfDirectories(Part2ConcurrentTests.java:309)
+
